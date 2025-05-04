@@ -12,6 +12,12 @@
         <p class="gh-excerpt">{{custom_excerpt}}</p>
         {{/if}}
 
+        {{primary_tag}}
+            <span class="post-card-primary-tag">
+                <a href="{{url}}">{{name}}</a>
+            </span>
+        {{/primary_tag}}
+
         {{#if feature_image}}
         <figure class="gh-feature-image">
             <picture>
