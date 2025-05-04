@@ -49,7 +49,9 @@ Re-usable card for linking to posts
         {{/if}}
         <div class="gh-card-content">
             {{primary_tag}}
-              <h3 class="otter-card-tag">{{tag.name}}</h3>
+              <span class="post-card-primary-tag">
+                    <a href="{{url}}">{{name}}</a>
+                </span>
             {{/primary_tag}}
             <span class="gh-card-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull">&bull;</span> {{reading_time}}</span>
             <h2 class="gh-card-title">{{title}}</h2>
